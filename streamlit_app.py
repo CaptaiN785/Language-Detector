@@ -54,3 +54,4 @@ sentence = col1.text_input("Enter a sentence of a languages..", \
 
 if sentence:
     st.success("Predicted language is : ***" + predict(sentence)+"***")
+    st.snow()
